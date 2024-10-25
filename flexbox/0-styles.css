@@ -1,0 +1,40 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Flexbox Section */
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Grid Section */
+.row {
+    display: flex; /* Make direct children flex items */
+}
+
+/* Remove the row::after declaration here */
+
+/* Update the column styles */
+[class*='col-'] {
+    /* Remove float: left; */
+    padding: 10px;
+    /* Add any additional styles needed */
+    box-sizing: border-box; /* Ensures padding and borders are included in width */
+}
+
+/* Example column widths */
+.col-1 {
+    flex: 1; /* Flex-grow */
+}
+
+.col-2 {
+    flex: 2; /* Flex-grow */
+}
+
+.col-3 {
+    flex: 1; /* Flex-grow */
+}
+
+/* Additional styles as needed */

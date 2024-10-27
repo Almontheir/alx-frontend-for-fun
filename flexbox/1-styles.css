@@ -1,0 +1,9 @@
+.section-services,
+.section-works,
+.section-about-us,
+.section-latest-news,
+.section-testimonial,
+.section-contact {
+  padding: 2rem;
+  /* Add any additional styles you want for these sections */
+}
